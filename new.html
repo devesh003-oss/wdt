@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+    .class {
+      text-align: center;
+      color: blue;
+      background-color: rgb(229, 225, 218);
+      height: 1200px;
+
+    }
+
+    .few {
+      display: grid;
+      grid-template-columns: 300px 300px 300px 300px 300px;
+      padding-bottom: 2px;
+      margin: 10px;
+      grid-gap: 10px;
+    }
+
+    .fix {
+      background-color: azure;
+      border: 2px solid black;
+    }
+
+    .hat {
+      display: grid;
+      grid-template-columns: 2000px 2000x;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .school,
+    .dance {
+      background-color: azure;
+      border: 2px solid black;
+      text-align: center;
+      align-items: center;
+    }
+
+    .dance {
+      background-color: azure;
+      border: 2px solid black;
+      text-align: center;
+      align-items: center;
+    }
+
+    .li {
+      background-color: rgb(23, 150, 46);
+      align-items: center;
+      margin-right: 100px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+  <div class="class">
+    <h1>Flowers</h1>
+    <h2>Image Formatting and optimization</h2>
+
+    <div class="few">
+      <div class="fix"><img src="taj.jpg" height="200" width="200"><br>
+        Jpg file original 111 kb</div>
+      <div class="fix">
+        <img src="taj.avif" height="220" width="260"><br>Avif file compressed to 47.4 kb<br>
+      </div>
+      <div class="fix">
+        <img src="taj.png" height="200" width="200"><br>png file changed to 1.2 mb<br>
+      </div>
+      <div class="fix"><img src="taj.webp" height="200" width="200"><br> web file ompressed to 71.2 kb</div>
+      <div class="fix"><img src="taj.jpeg" height="200" width="200"><br>Jpej compressed to 82.5kb</div>
+    </div>
+    <div class="hat">
+      <div class="school">
+        <h1>video </h1>
+        <video width="320" height="240" source src="https://youtu.be/sM_vQCapBr0" type="video/mp4"
+          poster="https://images.pexels.com/photos/68507/spring-flowers-flowers-collage-floral-68507.jpeg?cs=srgb&dl=pexels-pixabay-68507.jpg&fm=jpg"
+          controls>
+        </video> <br><iframe width="380" height="280"
+          src="https://www.youtube.com/embed/sM_vQCapBr0?si=h7D25sO1fpMBTPnc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><br>
+      </div>
+    </div>
+    <div class="li"></div><br>
+    <h1> Audio</h1>
+    <audio controls>
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/2JzZzZUQj3Qff7wapcbKjc?utm_source=generator" width="20%" height="352"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+      type="audio/ogg" poster="">
+  </div>
+  </audio>
+
+
+  </div>
+  </p>
+</body>
+
+</html>
